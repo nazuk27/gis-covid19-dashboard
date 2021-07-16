@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SIP Project</title>
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css"  rel="stylesheet">
+    <link href="../static/toastr/toastr.min.css"  rel="stylesheet">
+    <link href="../static/leaflet/leaflet.css"  rel="stylesheet">
+    <link href="../static/index.css"  rel="stylesheet">
+</head>
+<body>
+<div id="overlay">
+         <!--Loader Stuff -->
+  <div class="loader"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-9" id="mapid" style="width: 70%; height: 700px"></div>
+        <div class="col-md-3 data_panel" style="width: 28%; height: 700px">
+            <table class="table table-condensed table-responsive table-striped" id="table_prop">
+                <h3 class="hosp_name"></h3>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<div class="row state_wrap">
+    <div class="col-md-4">
+        <select class="form-control uniq_state"></select>
+    </div>
+    <div class="col-md-4">
+        <button class="btn-primary btn update_map">Update</button>
+    </div>
+</div>
+
+
+<script src="../static/vendor/jquery/jquery.min.js"></script>
+<script src="../static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/toastr/toastr.min.js"></script>
+<script src="../static/leaflet/leaflet.js"></script>
+<script src="../static/ajaxCall.js"></script>
+<script src="../static/index.js"></script>
+</body>
+</html>
